@@ -1,0 +1,126 @@
+.about-us {
+    margin: 0 auto;
+    width: 68.5vw;
+    height: auto;
+    display: block;
+    text-align: center;
+    border: 1.8vh solid whitesmoke;
+}
+
+.about-title {
+    font: 3.1vh avenir-lt-w01_25-light1475495, sans-serif;
+    font-size: 6.2vh;
+    padding-top: 4vh;
+    font-weight: 300;
+    padding-bottom: 5vh;
+}
+
+
+.about-text {
+    font: 3.1vh avenir-lt-w01_25-light1475495, sans-serif;
+    font-weight: 300;
+    color: #605e5e;
+}
+
+.about-button {
+    background-color: #257054;
+    color: #FFFFFF;
+    padding: 1.2vh;
+    border: none;
+    border-radius: 6.2vh;
+    -moz-border-radius: 6.2vh;
+    -webkit-border-radius: 6.2vh;
+    margin: 1.8vh;
+    height: 5vh;
+    width: 9.0vw;
+    cursor: pointer;
+}
+
+
+.our-approach {
+    margin: 0 auto;
+    width: 68.05vw;
+    height: auto;
+    display: block;
+    text-align: center;
+    padding-top: 3.7%;
+}
+.about-button:hover {
+    background-color: #81DECD;
+}
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 1.8vh;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .partners-img{ 
+    width: 100%;
+  }
+
+  main {
+    width: 100vw;
+    min-height: cacl(100vh - 211px - 58px)
+  }
+
+  .partners-title {
+    font: 3.1vh avenir-lt-w01_25-light1475495, sans-serif;
+    font-size: 6.2vh;
+    padding-top: 0;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.partners-img {
+  cursor: pointer;
+}
+
+.clients-img {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.slider {
+    width: 80%;
+    margin-left: 20vh;
+    height: auto;
+    padding-bottom: 5vh;
+}
+
+
+
+/*--------footer---------*/

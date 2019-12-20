@@ -1,0 +1,6 @@
+.line {
+    height: 10px;
+    border-bottom: 1px solid darkgreen;
+    background-color: darkgreen;
+    display: flex;
+  }

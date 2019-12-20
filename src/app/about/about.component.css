@@ -1,0 +1,23 @@
+.about-img {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 10vw;
+    padding-bottom: 10vh;
+}
+
+
+.about-info {
+    font: 10vh avenir-lt-w01_25-light1475495, sans-serif;
+    font-weight: 300;
+    font-size: 1vh;
+    color: #605e5e;
+}
+
+.about-section2 {
+    font-family: 'dinneuzeitgroteskltw01-_812426',sans-serif;
+    font-size: 7vh;
+    padding-top: 4vh;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 5vh;
+}
