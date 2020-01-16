@@ -1,0 +1,28 @@
+.img {
+  width: 70vw;
+  margin-left: 15vw;
+}
+
+
+.text {
+  max-width: 70vw;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.8rem;
+  font: normal normal normal avenir-lt-w01_35-light1475496,sans-serif;
+  color: #2F2E2E;
+  font-weight: 300;
+}
+
+.special {
+  padding-top: 5vh;
+  color: #605E5E;
+  font-weight: 400;
+}
+
+.work {
+  width: 40vw;
+  margin-left: 15vw;
+  padding-bottom: 3vh;
+}

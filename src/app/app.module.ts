@@ -18,6 +18,7 @@ import { WezeshaComponent } from './wezesha/wezesha.component';
 import { SliderComponent } from './slider/slider.component';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SolutionLastComponent } from './solution-last/solution-last.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     Solution3Component,
     BusinessDevelopmentComponent,
     WezeshaComponent,
-    SliderComponent
+    SliderComponent,
+    SolutionLastComponent
   ],
   imports: [
     BrowserModule,
@@ -50,13 +52,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       {path: 'value-chain-market-systems', component: Solution1Component},
       {path: 'twalisha-sme-incubator', component: BusinessDevelopmentComponent},
       {path: 'twalisha-farmer', component: WezeshaComponent},
+      {path: 'twalishaco-op', component: SolutionLastComponent},
       {path: '', redirectTo: 'home', pathMatch: 'full'},
       // {path: '**', component: PageNotFoundComponent}
     ]),
     MatCarouselModule.forRoot(),
     BrowserAnimationsModule,
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })
