@@ -1,51 +1,70 @@
 
-header {
+.navigation {
     font: 17px lato-light, lato, sans-serif;
     font-weight: 300;
     font-size: 17px;
-}
-.slider {
-    padding-top: 113px;
-    margin-left: 9%;
-}
-.container { 
-    width: 100%;
-    margin: 0 auto;
     border-bottom: 3px solid darkgreen;
-    float: left;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    float: left;
     padding: 0;
-    margin-left: 13.5%;
 }
 
-nav {
-    float: right;
+.navigation nav {
+    width: 70%;
+    z-index: 100;
 }
 
-nav ul {
-    margin: 12px;
-    padding: 0 15vw;
+nav .navbar-nav {
+    display: flex;
     list-style: none;
-
+    align-items: center;
+    justify-content: space-between;
 }
 
-nav li {
-    display: inline-block;
-    margin-left: 65px;
-    padding-top: 6vh;
-
-    position: relative;
-}
 
 nav a {
     color: #444;
     text-decoration: none;
+    /* z-index: -1; */
+    cursor: pointer;
 }
 
-nav a::before {
+.navbar-nav > li > a {
+    position: relative;
+}
+
+.navbar-nav > li > a::before {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: 0;
+    display: block;
+    height: 3px;
+    background: green;
+    width: 0%;
+    transition: all .5s ease-in-out;
+    transform-origin: right;
+}
+
+.navbar-nav > li > a:hover::before {
+    width: 100%;
+    transform-origin: left;
+}
+
+/* nav a::before {
     content: '';
     display: block;
     height: 5px;
@@ -54,10 +73,156 @@ nav a::before {
     background-color: rgb(55, 139, 55);
     position: absolute;
     top: 20px;
-}
+} */
 
 
-nav a:hover::before {
+/* nav a:hover::before {
     width: 100%;
+} */
+
+.dropdown {
+    position: relative;
 }
 
+.dropdown-list {
+    /* box-sizing: border-box; */
+    display: none;
+    background: white;
+    color: #444;
+    width: 13rem;
+    position: absolute;
+    bottom: -calc(100px + .9rem);
+    left: -4rem;
+    padding: .3rem .8rem;
+    border-radius: 4px;
+    box-shadow: 1px 3px 8px #18181888;
+}
+
+.dropdown-list2 {
+    /* box-sizing: border-box; */
+    display: none;
+    background: white;
+    color: #444;
+    width: 20rem;
+    position: absolute;
+    bottom: -calc(100px + .9rem);
+    left: -4rem;
+    padding: .3rem .8rem;
+    border-radius: 4px;
+    box-shadow: 1px 3px 8px #18181888;
+}
+
+.dropdown-list3 {
+    /* box-sizing: border-box; */
+    display: none;
+    background: white;
+    color: #444;
+    width: 14rem;
+    position: absolute;
+    bottom: -calc(100px + .9rem);
+    left: -4rem;
+    padding: .3rem .8rem;
+    border-radius: 4px;
+    box-shadow: 1px 3px 8px #18181888;
+}
+
+.dropdown:hover > .dropdown-list {
+    display: block;
+}
+
+.dropdown:hover > .dropdown-list2 {
+    display: block;
+}
+
+.dropdown:hover > .dropdown-list3 {
+    display: block;
+}
+
+.dropdown-list .dropdown-list-item {
+    display: block;
+    text-align: center;
+}
+
+.dropdown-list3 .dropdown-list-item {
+    display: block;
+    text-align: center;
+}
+
+.dropdown-list .dropdown-link {
+    color: #444;
+    display: block;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.dropdown-list2 .dropdown-link {
+    color: #444;
+    display: block;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-list3 .dropdown-link {
+    color: #444;
+    display: block;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-list .dropdown-link:hover {
+    border-top-color: darkgreen;
+}
+
+.dropdown-list2 .dropdown-link:hover {
+    border-top-color: darkgreen;
+}
+
+.dropdown-list3 .dropdown-link:hover {
+    border-top-color: darkgreen;
+}
+
+/* burger styling */
+.burger {
+    cursor: pointer;
+    display: none;
+}
+
+
+.nav-status {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px; width: 1px;
+    margin: -1px; padding: 0; border: 0;
+}
+
+.nav-status:checked ~ .burger {
+    display: block;
+}
+
+
+@media screen and (max-width: 678px) {
+    .navigation .container {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav > li > a {
+        display: block;
+        padding: .8rem 0;
+        /* display: none; */
+    }
+}

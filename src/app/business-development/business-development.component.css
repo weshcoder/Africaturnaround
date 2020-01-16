@@ -1,0 +1,78 @@
+.img {
+    width: 70vw;
+    height: auto;
+    margin-left: 15vw;
+    padding-bottom: 5vh;
+}
+
+.section1 {
+    color: #605E5E;
+    max-width: 80vw;
+    margin: 0 auto;
+    font: normal normal normal 3vh/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+.in-between{
+    color: black;
+    font-size: 3vh;
+    margin: 0 auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    max-width: 80vw;
+
+}
+
+.end {
+    margin: 0 auto;
+    max-width: 80vw;
+    color: #605E5E;
+    max-width: 80vw;
+    margin: 0 auto;
+    font-size: 2.5vh;
+    font-weight: 300;
+    font: avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+h2 {
+    font-family: dinneuzeitgroteskltw01-_812426,sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: .4px;
+}
+
+.stage1 {
+    margin: 0 auto;
+    max-width: 80vw;
+    color: #605E5E;
+    max-width: 80vw;
+    margin: 0 auto;
+    font-size: 2.5vh;
+    font-weight: 300;
+    font: avenir-lt-w01_35-light1475496,sans-serif;
+    padding-bottom: 20px;
+}
+
+.stage2 {
+    margin: 0 auto;
+    max-width: 80vw;
+    color: #605E5E;
+    max-width: 80vw;
+    margin: 0 auto;
+    font-size: 2.5vh;
+    font-weight: 300;
+    font: avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+.heading4 {
+    margin-left: 9.5vw;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: #605e5e;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sub {
+    margin-left: 4vw;
+}
+

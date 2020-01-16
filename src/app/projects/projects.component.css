@@ -1,4 +1,42 @@
 .project-img {
-    width: 80vw;
-    margin-left: 20vh;
+    width: 70vw;
+    height: auto;
+    margin-left: 15vw;
+}
+
+
+.logo1 {
+    width: 20vw;
+    margin-left: 10vw;
+    padding-bottom: 10vw;
+}
+
+.img1 {
+    width: 40vw;
+    margin-left: 15vw;
+    margin-top: 2vw;
+}
+
+.logo2 {
+    width: 20vw;
+    margin-left: 10vw;
+    padding-bottom: 10vw;
+}
+
+.img2 {
+    width: 40vw;
+    margin-left: 15vw;
+    margin-top: 5vw;
+}
+
+.logo3 {
+    width: 20vw;
+    margin-left: 10vw;
+    padding-bottom: 10vw;
+}
+
+.img3 {
+    width: 40vw;
+    margin-left: 11vw;
+    margin-top: 5vw;
 }

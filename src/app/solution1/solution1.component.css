@@ -1,0 +1,17 @@
+.img {
+    width: 70vw;
+    margin-left: 15vw;
+    height: auto;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    text-emphasis: none;
+}
+
+.content {
+    width: 50vw;
+    margin-left: 25vw;
+}

@@ -1,0 +1,36 @@
+.partners-img {
+    width: 70vw;
+    height: auto;
+    margin-left: 15vw;
+    padding-bottom: 2rem;
+}
+
+.partners-logo {
+    width: 30vw;
+    float: left;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 1.8rem;
+    font-family: avenir-lt-w01_35-light1475496,sans-serif;
+    color: #444;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.partners-text {
+    max-width: 95vw;
+}
+
+.link {
+    color:rgb(34, 34, 206);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.partners {
+    font-family: avenir-lt-w01_35-light1475496,sans-serif;
+    color: #444;
+    font-weight: 300;
+}

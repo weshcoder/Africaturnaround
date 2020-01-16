@@ -1,0 +1,20 @@
+main {
+    margin-left: 15vw;
+    font-family:  avenir-lt-w01_35-light1475496,sans-serif;
+    font-weight: 300;
+    max-width: 70vw;
+}
+
+p{
+    color: #444;
+    line-height: 1.5rem;
+    margin-left: 2vw;
+}
+
+h5 {
+    padding-top: 2rem;
+    font-family:  avenir-lt-w01_35-light1475496,sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    font-size: 18px;
+}

@@ -1,0 +1,32 @@
+.img {
+    width: 70vw;
+    height: auto;
+    margin-left: 15vw;
+    padding-bottom: 2vh;
+}
+
+.text1 {
+    max-width: 70vw;
+    margin: 0 auto;
+    color: #2F2E2E;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: avenir-lt-w01_35-light1475496,sans-serif;
+    text-align: center;
+}
+
+.services-header {
+  width: 10.4vw;
+  height: 14.78vh;
+  margin-top: -6vw;
+  max-width: 20vw;
+  margin-left: 25vw;
+}
+
+.services {
+    width: 10.4vw;
+    height: 14.78vh;
+    margin-top: 4vw;
+    max-width: 20vw;
+    margin-left: 15vw;
+}

@@ -1,19 +1,44 @@
-   <header>
+   <header class="navigation">
    
    <div class="container">
+        <!-- create a checkbox and hide -->
+        <input type="checkbox" class="nav-status" id="nav-status"/>
 
-        <img class="logo" src="../assets/logo.png" alt="" width="139" height="106">
+        <!-- logo -->
+        <img class="logo" src="../../assets/imgs/logo.png" alt="" width="139" height="106">
 
-
+        <!-- nav links -->
         <nav>
-            <ul>
+            <ul class="navbar-nav">
                 <li><a href="">Home</a></li>
                 <li><a [routerLink]="['/projects']" routerLinkActive="router-link-active" >Projects</a></li>
-                <li><a [routerLink]="['/about']" href="">About</a></li>
-                <li><a [routerLink]="['/solutions']" href="">Solutions</a></li>
-                <li><a [routerLink]="['/opportunities']" href="">Opportunities</a></li>
+                <li class="dropdown">
+                    <a [routerLink]="['/about']" href="" class="dropdown-item" >About</a>
+                    <ul class="dropdown-list">
+                        <li class="dropdown-list-item"><a [routerLink]="['/partners']" routerLinkActive="router-link-active"  class="dropdown-link">Partners</a></li>
+                        <li class="dropdown-list-item"><a href="#" class="dropdown-link">News</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                        <a style="cursor: default;" class="dropdown-item" >Solutions</a>
+                        <ul class="dropdown-list2">
+                            <li class="dropdown-list-item"><a [routerLink]="['/value-chain-market-systems']" routerLinkActive="router-link-active"  class="dropdown-link">Market System Analysis & Strategy</a></li>
+                            <li class="dropdown-list-item"><a [routerLink]="['/twalisha-sme-incubator']" routerLinkActive="router-link-active"  href="#" class="dropdown-link">Business Development Program</a></li>
+                            <li class="dropdown-list-item"><a [routerLink]="['/twalisha-martket']" routerLinkActive="router-link-active"  class="dropdown-link">Market for Smallholders</a></li>
+                            <li class="dropdown-list-item"><a [routerLink]="['/twalisha-farmer']" routerLinkActive="router-link-active"  href="#" class="dropdown-link">Market-based Farmer Extenstion</a></li>
+                            <li class="dropdown-list-item"><a href="#" class="dropdown-link">Proffesionalayzing Farmer Organizations</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a style="cursor: default;" class="dropdown-item" >Opportunities</a>
+                            <ul class="dropdown-list3">
+                                <li  routerLinkActive="router-link-active"  class="dropdown-list-item"><a href="#" [routerLink]="['/opportunities']" class="dropdown-link">Jobs/Consultancies</a></li>
+                            </ul>
+                        </li>
             </ul>
+            
         </nav>
+
     </div>
 
 </header>

@@ -1,10 +1,27 @@
 footer {
-    margin-top: 50px;
     text-align: center;
     background-color: #296b46;
     color: #fff;
-    padding: 40px;
+    padding: 43px;
     border-top: 5px solid purple;
     border-bottom: 5px solid purple;
     z-index: 100;
+    margin-top: 5vh;
   }
+
+.email {
+  position: absolute;
+  right: 10vw;
+  font-size: 1.1rem;
+}
+
+.email-title {
+  margin-left: 65vw;
+}
+
+.fa {
+  letter-spacing: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
