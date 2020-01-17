@@ -1,0 +1,41 @@
+/* .img {
+  width: 100vw;
+  height: auto;
+  padding-bottom: 5vh;
+}
+
+.post-text {
+  cursor: pointer;
+  padding-left: 17vw;
+  color:  #3b58b8;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.login-signup {
+  text-decoration: none;
+  margin-left: 40vw;
+  border: 1px solid #3b58b8;
+  height: 30px;
+  width: 150px;
+  justify-content: center;
+  color: rgb(122, 166, 184);
+  font-size: 15px ;
+  font-weight: 300;
+}
+
+.blog-header1{
+  padding-left: 3vw;
+  margin-top: 15vh;
+  position: absolute;
+  font: 28px avenir-lt-w01_35-light1475496, sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  max-width: 30vw;
+  color: #2f2e2e;
+}
+
+.blog-header1:hover {
+  cursor: pointer;
+  color: #3b58b8;
+} */
