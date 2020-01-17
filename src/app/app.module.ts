@@ -20,6 +20,7 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SolutionLastComponent } from './solution-last/solution-last.component';
 import { NewsComponent } from './news/news.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 @NgModule({
@@ -61,6 +62,7 @@ import { NewsComponent } from './news/news.component';
     ]),
     MatCarouselModule.forRoot(),
     BrowserAnimationsModule,
+    NgxSpinnerModule
   ],
 
   providers: [],
