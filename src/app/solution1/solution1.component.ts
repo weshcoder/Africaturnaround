@@ -16,6 +16,6 @@ export class Solution1Component implements OnInit {
 
     setTimeout(() => {
       this.spinner.hide();
-    }, 1000);
+    }, 5000);
   }
 }

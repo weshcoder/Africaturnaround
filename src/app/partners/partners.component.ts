@@ -16,6 +16,6 @@ export class PartnersComponent implements OnInit {
 
     setTimeout(() => {
       this.spinner.hide();
-    }, 2000);
+    }, 5000);
   }
 }
