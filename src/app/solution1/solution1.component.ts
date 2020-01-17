@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgxSpinnerService} from 'ngx-spinner';
 
 @Component({
   selector: 'app-solution1',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Solution1Component implements OnInit {
 
-  constructor() { }
+  constructor(private spinner: NgxSpinnerService) {
 
-  ngOnInit() {
   }
+  ngOnInit() {
+    this.spinner.show();
 
+    setTimeout(() => {
+      this.spinner.hide();
+    }, 1000);
+  }
 }
