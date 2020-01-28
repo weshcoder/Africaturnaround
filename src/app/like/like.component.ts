@@ -8,12 +8,9 @@ import { Component, Input } from '@angular/core';
 })
 export class LikeComponent  {
   numberOfLikes = 0;
-  like = false;
 
   likeButtonClick() {
     this.numberOfLikes += 1;
-    this.like = true;
-    return this.like;
   }
 
 
