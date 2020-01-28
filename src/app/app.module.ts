@@ -21,6 +21,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SolutionLastComponent } from './solution-last/solution-last.component';
 import { NewsComponent } from './news/news.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { LikeComponent } from './like/like.component';
+import { Blog1Component } from './blog1/blog1.component';
+import { Blog2Component } from './blog2/blog2.component';
 
 
 @NgModule({
@@ -41,7 +44,10 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     WezeshaComponent,
     SliderComponent,
     SolutionLastComponent,
-    NewsComponent
+    NewsComponent,
+    LikeComponent,
+    Blog1Component,
+    Blog2Component
   ],
   imports: [
     BrowserModule,
@@ -57,6 +63,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
       {path: 'twalisha-farmer', component: WezeshaComponent},
       {path: 'twalishaco-op', component: SolutionLastComponent},
       {path: 'news', component: NewsComponent},
+      {path: 'blog1', component: Blog1Component},
       {path: '', redirectTo: 'home', pathMatch: 'full'},
       // {path: '**', component: PageNotFoundComponent}
     ]),
